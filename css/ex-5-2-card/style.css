@@ -1,0 +1,26 @@
+.card {
+    background-color: rgb(235, 226, 196);
+
+    margin: 360px;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.386);
+    padding: 20px;
+
+    font-family: monospace;
+    font-size: 15px;
+    text-align: center;
+
+}
+
+a {
+    color: rgb(213, 146, 58);
+}
+
+
+
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
