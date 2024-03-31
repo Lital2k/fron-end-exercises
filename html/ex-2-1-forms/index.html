@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>Create an Account </h1>
+<form action="form">
+<p>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+</p>
+        <label for="password">Password:</label>
+        <input type="password" placeholder="Enter password">
+
+<p>
+    <label for="age">Age:</label>
+    <select name="age" id="age">
+        <option value="select">Select Age:</option>
+        <option value="kid">12-18</option>
+        <option value="young-adult">18-21</option>
+        <option value="adult">21-26</option>
+</p>
+    </select>
+<div>
+    <p>
+    <label for="request">Tell us a little about yourself:</label>
+    <br>
+    <textarea name="request" id="request" cols="40" rows="10" placeholder="Write your answer"></textarea>
+</p> 
+</div>
+<div> 
+    <input type="checkbox" name="agree_terms" id="agree" checked required>
+    <label for="agree">I agree to <a href="https://www.google.com/">terms of servies</a> 
+    </label>
+</div>
+<p>
+    <button id="signup">Sign UP</button>
+</p>
+
+</form>
+</body>
+</html>
